@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tomasa.project</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #07226d;
+        
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(252, 252, 252); /*smn, color de letra*/
+            
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: black;
+padding: 20px;
+box: shadow 10px black;
+        }
+        .foto-prfil{
+            width: 250px;
+            height: auto;border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="perfil">
+        <img src="ochoa.pnj.jpg" alt="El gigante que despierta cada 4 años" class="foto-prfil">
+        <h1 id="nombre">-.Guillrmo Ochoa</h1>
+        <h2 id="Posicion">-.POS: Portero</h3>
+            <h2 id="Estatura">-.CM: 1,85</h2>
+        <ul>
+           <li id="telefono">-TEL:8991612464</li>
+           <li id="correo">-Correo:memoochoa@gmail.com</li>
+           <li id="biografia">-soy Fransisco Guillermo Ochoa Magaña</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener{'Domcontentloaded',function(){
+            document.getElementById('nombre').textContent='Guillermo Ochoa';
+            document.getElementById('Posicion').textContent='Portero';
+            document.getElementById('Estatura').textContent='1,85';
+            document.getElementById('telefono').textContent='8991612464';
+            document.getElementById('correo').textContent='memoochoa@gmail.com';
+            document.getElementById('biografia').textContent='soy Fransisco Guillermo Ochoa Magaña';
+        }}
+    </script>
+</body>
+</html>
